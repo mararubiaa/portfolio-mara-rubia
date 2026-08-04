@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Substitua "https://www.seudominio.com.br" pelo domínio real assim que o site for publicado. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.seudominio.com.br/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/cases/lume-cosmetics.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/cases/fitpulse-app.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/cases/nova-tech.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/cases/aurora-fashion.html</loc>
+  </url>
+</urlset>
