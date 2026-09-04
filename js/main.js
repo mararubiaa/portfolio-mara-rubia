@@ -153,10 +153,10 @@
      type: "vimeo" | "youtube" | "behance"
   --------------------------------------------------------------------------- */
   var libraryVideos = [
-    { thumbnail: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80", type: "vimeo",   id: "", duration: "0:45" },
+    { thumbnail: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80", type: "vimeo",   id: "1224102778", duration: "0:45" },
     { thumbnail: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80", type: "vimeo",   id: "", duration: "0:38" },
-    { thumbnail: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", type: "youtube", id: "", duration: "0:52" },
-    { thumbnail: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80", type: "behance", id: "", duration: "0:41" },
+    { thumbnail: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", type: "vimeo", id: "", duration: "0:52" },
+    { thumbnail: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80", type: "vimeo", id: "", duration: "0:41" },
     { thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80", type: "vimeo",   id: "", duration: "0:47" }
   ];
 
