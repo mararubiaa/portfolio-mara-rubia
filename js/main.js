@@ -157,7 +157,8 @@
     { thumbnail: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80", type: "vimeo",   id: "1216583316", duration: "0:0" },
     { thumbnail: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", type: "vimeo", id: "1217156198", duration: "0:0" },
     { thumbnail: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80", type: "vimeo", id: "1217672305", duration: "0:0" },
-    { thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80", type: "vimeo",   id: "1224102778", duration: "0:0" }
+    { thumbnail: "https://images.unsplash.com/photo-1763668444855-401b58dceb20?auto=format&fit=crop&fm=jpg&q=80&w=1200"
+  alt="Frasco de suplemento", type: "vimeo",   id: "1224102778", duration: "0:0" }
   ];
 
   var libraryGrid = document.querySelector('[data-library-grid]');
