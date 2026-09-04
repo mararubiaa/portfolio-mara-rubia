@@ -33,6 +33,7 @@
         <ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#biblioteca">Biblioteca</a></li>
           <li><a href="#videos">Vídeos</a></li>
           <li><a href="#ferramentas">Ferramentas</a></li>
           <li><a href="#contato" class="btn btn-ghost">Contato</a></li>
@@ -49,6 +50,7 @@
     <ul>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#biblioteca">Biblioteca</a></li>
       <li><a href="#videos">Vídeos</a></li>
       <li><a href="#ferramentas">Ferramentas</a></li>
       <li><a href="#contato">Contato</a></li>
@@ -223,6 +225,37 @@
       </div>
     </section>
 
+<!-- ==========================================================
+     BIBLIOTECA
+     ========================================================== -->
+<section class="section" id="biblioteca">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Biblioteca</p>
+      <h2 class="display-2">Explore minha <em class="italic">biblioteca.</em></h2>
+      <p class="lede">Uma coleção em constante crescimento de vídeos — sem vínculo com projeto ou cliente específico.</p>
+    </div>
+
+    <div class="library-grid reveal" data-library-grid></div>
+
+    <div class="library-load-more">
+      <button class="btn btn-ghost" type="button" data-library-load-more>
+        Carregar mais <span class="btn-arrow" aria-hidden="true">→</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal de reprodução -->
+<div class="library-modal" data-library-modal hidden>
+  <div class="library-modal__backdrop" data-library-modal-close></div>
+  <div class="library-modal__frame">
+    <button class="library-modal__close" type="button" data-library-modal-close aria-label="Fechar vídeo">✕</button>
+    <div class="library-modal__player" data-library-modal-player></div>
+  </div>
+</div>
+    
+    
     <!-- ==========================================================
          BIBLIOTECA DE VÍDEOS
          ========================================================== -->
