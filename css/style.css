@@ -1383,3 +1383,136 @@ textarea {
 /* ---------- Utilidades ---------- */
 .mt-0 { margin-top: 0; }
 .text-center { text-align: center; }
+/* ---------- Biblioteca ---------- */
+.library-grid {
+  display: grid;
+  gap: var(--space-s);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.library-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--line);
+  overflow: hidden;
+  background: var(--ink);
+  cursor: pointer;
+}
+
+.library-card__thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.82;
+  transition: opacity 0.4s var(--ease), transform 0.6s var(--ease);
+}
+
+.library-card:hover .library-card__thumb {
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+.library-card__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid rgba(250, 249, 246, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s var(--ease), transform 0.3s var(--ease);
+}
+
+.library-card__play svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--paper);
+  margin-left: 2px;
+}
+
+.library-card:hover .library-card__play {
+  background: var(--tally);
+  border-color: var(--tally);
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.library-card__duration {
+  position: absolute;
+  bottom: var(--space-xs);
+  right: var(--space-xs);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--paper);
+  background: rgba(16, 15, 13, 0.55);
+  padding: 0.25em 0.5em;
+  border-radius: var(--radius-s);
+}
+
+.library-load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-l);
+}
+
+.library-load-more[hidden] {
+  display: none;
+}
+
+@media (min-width: 620px) {
+  .library-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 980px) {
+  .library-grid { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* Modal */
+.library-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-m);
+}
+
+.library-modal[hidden] { display: none; }
+
+.library-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 15, 13, 0.9);
+}
+
+.library-modal__frame {
+  position: relative;
+  width: min(920px, 100%);
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.library-modal__player {
+  position: absolute;
+  inset: 0;
+}
+
+.library-modal__player iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.library-modal__close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: var(--paper);
+  font-size: 1.1rem;
+}
