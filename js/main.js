@@ -165,7 +165,7 @@
   var libraryGrid = document.querySelector('[data-library-grid]');
 
   if (libraryGrid) {
-    var LIB_PAGE_SIZE = 10;
+    var LIB_PAGE_SIZE = 5;
     var libShown = 0;
     var loadMoreBtn = document.querySelector('[data-library-load-more]');
 
