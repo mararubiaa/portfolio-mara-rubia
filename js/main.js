@@ -153,13 +153,13 @@
      type: "vimeo" | "youtube" | "behance"
   --------------------------------------------------------------------------- */
   var libraryVideos = [
-    { thumbnail: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80", type: "vimeo",   id: "1216433791", duration: "0:0" },
-    { thumbnail: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80", type: "vimeo",   id: "1216583316", duration: "0:0" },
-    { thumbnail: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", type: "vimeo", id: "1217156198", duration: "0:0" },
-    { thumbnail: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80", type: "vimeo", id: "1217672305", duration: "0:0" },
-    { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80", type: "vimeo", id: "1224102778", duration: "0:0" }
-    { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80", type: "vimeo", id: "1224946461", duration: "0:0" }
-   { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80",  type: "vimeo", id: "1224946639", duration: "0:0" }
+    { thumbnail: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80", type: "vimeo",   id: "1216433791", duration: "" },
+    { thumbnail: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80", type: "vimeo",   id: "1216583316", duration: "" },
+    { thumbnail: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80", type: "vimeo", id: "1217156198", duration: "" },
+    { thumbnail: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80", type: "vimeo", id: "1217672305", duration: "" },
+    { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80", type: "vimeo", id: "1224102778", duration: "" }
+    { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80", type: "vimeo", id: "1224946461", duration: "" }
+   { thumbnail: "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&q=80",  type: "vimeo", id: "1224946639", duration: "" }
   ];
 
   var libraryGrid = document.querySelector('[data-library-grid]');
